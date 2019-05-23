@@ -69,7 +69,7 @@ convert.addEventListener('click', event => {
   let r = parseInt(colorInputRed.value, 10).toString(16)
   let g = parseInt(colorInputGreen.value, 10).toString(16)
   let b = parseInt(colorInputBlue.value, 10).toString(16)
-
+  colorInputHex.value = "#" + length(r) + length(g) + length(b)
   displayHex.style.backgroundColor = "#" + length(r) + length(g) + length(b)
 })
 
