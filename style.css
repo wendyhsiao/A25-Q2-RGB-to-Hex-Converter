@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;
+box-sizing: border-box;}
+h2{
+  text-transform: uppercase;
+} 
+.container{
+  /* background-color: #f3f3f3; */
+  display:grid;
+  grid-template-columns:70% 30%;
+}
+
+.color-chart{
+  width:40px;
+  height:40px;
+  background-color:black;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.input-group-text{
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.form-control{
+  /* width: 200px; */
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#chart-hex{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #ced4da
+}
+
+.section-right, .section-left{
+  padding: 50px;
+}
